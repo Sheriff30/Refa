@@ -751,3 +751,7 @@ footer {
   opacity: 0;
   visibility: hidden;
 }
+
+.phone-number {
+  color: var(--white-color);
+}
