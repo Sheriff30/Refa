@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Refa</title>
+    <link rel="icon" href="/assets/logo.svg" type="image/svg+xml" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link rel="stylesheet" href="animations.css" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <!-- Mobile  Nav-->
+    <section class="mobile-nav closed">
+      <div class="close-btn">
+        <img src="/assets/close-outline.svg" alt="" />
+      </div>
+      <nav>
+        <a href="#" data-i18n="home-page"></a>
+        <a href="#" data-i18n="partners"> </a>
+        <a href="#" data-i18n="become-a-partner"></a>
+
+        <a href="#">
+          <div data-i18n="download-app"></div>
+        </a>
+        <button class="toggleLangBtn">Arabic</button>
+
+        <a href="#">
+          <div data-i18n="login"></div>
+        </a>
+      </nav>
+    </section>
+
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <!-- Logo -->
+        <div class="logo">
+          <img src="/assets/images/logos/refa-logo.svg" alt="" />
+        </div>
+
+        <!-- Nav -->
+        <nav>
+          <a href="#" data-i18n="home-page"></a>
+          <a href="#" data-i18n="partners"> </a>
+          <a href="#" data-i18n="become-a-partner"></a>
+          <button class="toggleLangBtn">Arabic</button>
+        </nav>
+
+        <!-- actions -->
+        <div class="header-actions">
+          <a href="#">
+            <div>
+              <img src="/assets/images/logos/user-logo.png" alt="" />
+            </div>
+            <div data-i18n="login"></div>
+          </a>
+          <a href="#">
+            <div data-i18n="download-app"></div>
+            <div>
+              <img src="/assets/images/logos/download-logo.png" alt="" />
+            </div>
+          </a>
+        </div>
+
+        <div class="menu-bar">
+          <img src="/assets/menu-outline.svg" alt="" />
+        </div>
+      </div>
+    </header>
+    <!-- Hero section -->
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero-text">
+          <h1>
+            <div data-i18n="with-our"></div>
+            <div data-i18n="rent-now"></div>
+            <div data-i18n="pay-later"></div>
+          </h1>
+          <p data-i18n="description"></p>
+          <div class="hero-btns">
+            <a href="#">
+              <img src="/assets/google-play.svg" alt="" />
+            </a>
+            <a href="#">
+              <img src="/assets/apple-store.svg" alt="" />
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-img">
+          <img src="/assets/hero-section.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Rent Without Limits -->
+    <section class="rent-without-limits">
+      <div class="container">
+        <div class="rent-without-limits-box">
+          <img
+            src="/assets/rent-without-limits-circle.png"
+            class="circle-1"
+            alt=""
+          />
+          <h3 data-i18n="rent-without-imits"></h3>
+          <h2 data-i18n="platform-opportunity"></h2>
+          <p data-i18n="rent-without-text"></p>
+          <img
+            src="/assets/rent-without-limits-circle.png"
+            class="circle-2"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- How-it-works -->
+    <section class="how-it-works">
+      <div class="container">
+        <div class="how-it-works-title">
+          <h3 data-i18n="how-it-works"></h3>
+          <h2 data-i18n="step-by-step"></h2>
+        </div>
+
+        <div class="how-it-works-cards">
+          <!-- Card 1 -->
+          <div class="how-it-works-card">
+            <div class="how-it-works-header">
+              <div class="how-it-works-icon">
+                <img src="/assets/how-it-works-step1.png" alt="" />
+              </div>
+              <p>1</p>
+            </div>
+            <div class="how-it-works-step">
+              <p data-i18n="first-step"></p>
+              <h3 data-i18n="browse-and-select"></h3>
+            </div>
+            <div class="how-it-works-text" data-i18n="first-step-text"></div>
+          </div>
+          <!-- Card 2 -->
+          <div class="how-it-works-card">
+            <div class="how-it-works-header">
+              <div class="how-it-works-icon">
+                <img src="/assets/how-it-works-step2.png" alt="" />
+              </div>
+              <p>2</p>
+            </div>
+            <div class="how-it-works-step">
+              <p data-i18n="second-step"></p>
+              <h3 data-i18n="view-property"></h3>
+            </div>
+            <div class="how-it-works-text" data-i18n="second-step-text"></div>
+          </div>
+          <!-- Card 3 -->
+          <div class="how-it-works-card">
+            <div class="how-it-works-header">
+              <div class="how-it-works-icon">
+                <img src="/assets/how-it-works-step3.png" alt="" />
+              </div>
+              <p>3</p>
+            </div>
+            <div class="how-it-works-step">
+              <p data-i18n="third-step"></p>
+              <h3 data-i18n="right-payment"></h3>
+            </div>
+            <div class="how-it-works-text" data-i18n="third-step-text"></div>
+          </div>
+          <!-- Card 4 -->
+          <div class="how-it-works-card">
+            <div class="how-it-works-header">
+              <div class="how-it-works-icon">
+                <img src="/assets/how-it-works-step4.png" alt="" />
+              </div>
+              <p>4</p>
+            </div>
+            <div class="how-it-works-step">
+              <p data-i18n="fourth-step"></p>
+              <h3 data-i18n="apply-for-property"></h3>
+            </div>
+            <div class="how-it-works-text" data-i18n="fourth-step-text"></div>
+          </div>
+          <!-- Card 5 -->
+          <div class="how-it-works-card">
+            <div class="how-it-works-header">
+              <div class="how-it-works-icon">
+                <img src="/assets/how-it-works-step5.png" alt="" />
+              </div>
+              <p>5</p>
+            </div>
+            <div class="how-it-works-step">
+              <p data-i18n="fifth-step"></p>
+              <h3 data-i18n="payment-management"></h3>
+            </div>
+            <div class="how-it-works-text" data-i18n="fifth-step-text"></div>
+          </div>
+          <!-- Card 6 -->
+          <div class="how-it-works-card">
+            <div class="how-it-works-header">
+              <div class="how-it-works-icon">
+                <img src="/assets/how-it-works-step6.png" alt="" />
+              </div>
+              <p>6</p>
+            </div>
+            <div class="how-it-works-step">
+              <p data-i18n="sixth-step"></p>
+              <h3 data-i18n="customer-support"></h3>
+            </div>
+            <div class="how-it-works-text" data-i18n="sixth-step-text"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our benefits -->
+    <section class="benefits-section">
+      <div class="container">
+        <div class="benefits-title">
+          <h3 data-i18n="our-benefits"></h3>
+          <h2 data-i18n="benefits-title"></h2>
+          <p data-i18n="benefits-text"></p>
+        </div>
+
+        <div class="benefits-cards">
+          <div class="benefit-card">
+            <div class="benefit-card-img">
+              <img src="/assets/benefit1.png" alt="" />
+            </div>
+            <h2 data-i18n="benefit-title1"></h2>
+
+            <p data-i18n="benefit-text1"></p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-card-img">
+              <img src="/assets/benefit2.png" alt="" />
+            </div>
+            <h2 data-i18n="benefit-title2"></h2>
+
+            <p data-i18n="benefit-text2"></p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-card-img">
+              <img src="/assets/benefit3.png" alt="" />
+            </div>
+            <h2 data-i18n="benefit-title3"></h2>
+
+            <p data-i18n="benefit-text3"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Success Stories -->
+    <section class="success-section">
+      <div class="container">
+        <div class="success-title">
+          <div class="quote" dir="ltr">
+            <div class="quote-container">
+              <img src="/assets/quote-left.png" alt="" class="quote-left" />
+              <h3 data-i18n="success-title1">Success Stories</h3>
+            </div>
+            <h2 data-i18n="success-title2">
+              Real Experiences, Impressive Results
+            </h2>
+
+            <div class="quote-container">
+              <img src="/assets/quote-right.png" alt="" class="quote-right" />
+            </div>
+          </div>
+        </div>
+        <div class="success-text">
+          <p>
+            <span data-i18n="user-testimonials"></span>
+            <strong data-i18n="real-exp"></strong>
+          </p>
+          <p data-i18n="success-text"></p>
+        </div>
+        <div class="testimonial-cards">
+          <div class="testimonial-card">
+            <div class="testimonial-detail">
+              <div class="testimonial-user">
+                <div class="testimonial-user-img">
+                  <img src="/assets/user-feedback1.png" alt="" />
+                </div>
+                <div class="testimonial-user-feedback">
+                  <img src="/assets/star.png" alt="" />
+                  <img src="/assets/star.png" alt="" />
+                  <img src="/assets/star.png" alt="" />
+                  <img src="/assets/star.png" alt="" />
+                  <img src="/assets/star.png" alt="" />
+                </div>
+              </div>
+              <div>
+                <p class="testimonial-user-name" data-i18n="feedback-name1"></p>
+              </div>
+            </div>
+            <div class="testimonial-title" data-i18n="feedback-title1"></div>
+            <div class="testimonial-text" data-i18n="feedback-text1"></div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-detail">
+              <div class="testimonial-user">
+                <div class="testimonial-user-img">
+                  <img src="/assets/user-feedback2.png" alt="" />
+                </div>
+                <div class="testimonial-user-feedback">
+                  <img src="/assets/star.png" alt="" />
+                  <img src="/assets/star.png" alt="" />
+                  <img src="/assets/star.png" alt="" />
+                  <img src="/assets/star.png" alt="" />
+                  <img src="/assets/star.png" alt="" />
+                </div>
+              </div>
+              <div>
+                <p class="testimonial-user-name" data-i18n="feedback-name2"></p>
+              </div>
+            </div>
+            <div class="testimonial-title" data-i18n="feedback-title2"></div>
+            <div class="testimonial-text" data-i18n="feedback-text2"></div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-detail">
+              <div class="testimonial-user">
+                <div class="testimonial-user-img">
+                  <img src="/assets/user-feedback3.png" alt="" />
+                </div>
+                <div class="testimonial-user-feedback">
+                  <img src="/assets/star.png" alt="" />
+                  <img src="/assets/star.png" alt="" />
+                  <img src="/assets/star.png" alt="" />
+                  <img src="/assets/star.png" alt="" />
+                  <img src="/assets/star.png" alt="" />
+                </div>
+              </div>
+              <div>
+                <p class="testimonial-user-name" data-i18n="feedback-name3"></p>
+              </div>
+            </div>
+            <div class="testimonial-title" data-i18n="feedback-title3"></div>
+            <div class="testimonial-text" data-i18n="feedback-text3"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact us -->
+
+    <section class="contact-section">
+      <div class="container">
+        <div class="contact-img">
+          <img src="/assets/saudi man holding phone.png" alt="" />
+        </div>
+        <div class="contact-text">
+          <div class="contact-title">
+            <h3 data-i18n="contact-us"></h3>
+            <h2 data-i18n="your-real-estate"></h2>
+          </div>
+          <h2 class="contact-title2">
+            <p data-i18n="support-you"></p>
+            <p data-i18n="every-step"></p>
+          </h2>
+          <p data-i18n="contact-text" class="contact-content"></p>
+          <a href="#" class="gradient-btn" data-i18n="contact-us"></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Partners  -->
+    <section class="partners-section">
+      <div class="container">
+        <h2 data-i18n="our-partners"></h2>
+        <div class="partners">
+          <img src="/assets/partner-1.png" alt="" />
+          <img src="/assets/partner-2.png" alt="" />
+          <img src="/assets/partner-3.png" alt="" />
+          <img src="/assets/partner-4.png" alt="" />
+        </div>
+        <h2 data-i18n="want-to-become"></h2>
+        <a href="#" class="gradient-btn" data-i18n="join-us"></a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-section logo-footer">
+          <img src="/assets/logo-footer.svg" alt="" />
+        </div>
+
+        <div class="footer-section">
+          <h3 data-i18n="useful-links"></h3>
+          <ul>
+            <li>
+              <a href="#" data-i18n="about-platform"></a>
+            </li>
+            <li><a href="#" data-i18n="faq"></a></li>
+            <li><a href="#" data-i18n="pp"></a></li>
+            <li><a href="#" data-i18n="terms"></a></li>
+            <li><a href="#" data-i18n="blog"></a></li>
+            <li><a href="#" data-i18n="site-map"></a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3 data-i18n="contact-us"></h3>
+          <p>
+            <strong data-i18n="mail"> </strong>
+            support@perrefs.com
+          </p>
+          <p>
+            <strong data-i18n="phone"> </strong>
+            +966 55 123 4567
+          </p>
+        </div>
+
+        <div class="footer-section">
+          <h3 data-i18n="address"></h3>
+          <p data-i18n="address1"></p>
+          <p data-i18n="address2"></p>
+          <p data-i18n="address4"></p>
+          <p data-i18n="address3"></p>
+        </div>
+
+        <div class="footer-section">
+          <h3 data-i18n="follow-us"></h3>
+          <div class="social-icons">
+            <a href="#">
+              <img src="/assets/linkedin-icon.svg" alt="" />
+            </a>
+            <a href="#">
+              <img src="/assets/instagram-icon.svg" alt="" />
+            </a>
+            <a href="#">
+              <img src="/assets/x-icon.svg" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Copy right -->
+
+    <section class="copy-right" data-i18n="copy-right">
+      All rights reserved © 2024
+    </section>
+  </body>
+</html>

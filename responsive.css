@@ -1,0 +1,254 @@
+@media only screen and (max-width: 1350px) {
+  .contact-title {
+    h2 {
+      font-size: 3.5rem;
+    }
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .contact-section {
+    padding-top: 5rem;
+    .container {
+      flex-direction: column-reverse;
+    }
+  }
+
+  footer {
+    .container {
+      grid-template-columns: repeat(3, 1fr);
+
+      .footer-section {
+        border-right: none !important;
+        border-left: none !important;
+      }
+    }
+  }
+
+  .footer-section:last-child {
+    padding-right: 0 !important;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .hero-section {
+    .hero-img {
+      max-width: 60rem;
+      margin: 0 auto;
+    }
+
+    .hero-text {
+      h1 {
+        font-size: 5rem;
+        line-height: 65px;
+      }
+    }
+  }
+
+  .rent-without-limits {
+    padding: 10rem 2.5rem;
+  }
+
+  .benefits-cards {
+    gap: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .mobile-nav {
+    display: block;
+  }
+  header {
+    .logo {
+      max-width: 110px;
+    }
+    nav {
+      display: none;
+    }
+
+    .header-actions {
+      display: none;
+    }
+  }
+  .menu-bar {
+    display: flex !important;
+  }
+  .hero-section {
+    .container {
+      grid-template-columns: 1fr;
+      height: auto;
+      gap: 2rem;
+    }
+    .hero-img {
+      position: relative;
+    }
+
+    .hero-text {
+      gap: 2.5rem;
+
+      h1 {
+        font-size: 3.5rem;
+        line-height: 45px;
+      }
+    }
+  }
+
+  .rent-without-limits {
+    .rent-without-limits-box {
+      h3 {
+        font-size: 2rem;
+        color: var(--green-color);
+      }
+
+      h2 {
+        font-size: 3rem;
+      }
+
+      p {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  .how-it-works-title {
+    margin-bottom: 2rem;
+    h3 {
+      font-size: 2rem;
+    }
+
+    h2 {
+      font-size: 3rem;
+    }
+  }
+
+  .benefits-title {
+    h3 {
+      font-size: 2rem;
+    }
+
+    h2 {
+      font-size: 3rem;
+    }
+  }
+
+  .success-title {
+    h3 {
+      font-size: 2rem;
+    }
+
+    h2 {
+      font-size: 3rem;
+    }
+    .quote {
+      max-width: 65rem;
+    }
+
+    .quote-left,
+    .quote-right {
+      width: 50px;
+    }
+  }
+  [lang="ar"] .quote {
+    max-width: 45rem !important;
+  }
+
+  .contact-title {
+    h3 {
+      font-size: 2rem;
+    }
+
+    h2 {
+      font-size: 3rem;
+    }
+  }
+
+  .contact-title2 {
+    font-size: 2.6rem;
+    line-height: 40px;
+    text-align: center;
+  }
+
+  .partners-section {
+    padding: 4rem 2.5rem;
+
+    h2 {
+      font-size: 3rem;
+    }
+    .partners {
+      justify-content: center;
+    }
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .rent-without-limits {
+    padding: 5rem 2.5rem;
+    .rent-without-limits-box {
+      padding: 1.5rem;
+    }
+    .circle-1,
+    .circle-2 {
+      display: none;
+    }
+  }
+  .how-it-works-cards {
+    gap: 5rem;
+  }
+
+  .benefits-cards {
+    padding: 4rem 0;
+    flex-wrap: wrap;
+  }
+
+  .benefits-section {
+    background: linear-gradient(
+        to bottom,
+        rgba(12, 24, 146, 0.93) 0%,
+        rgba(12, 24, 146, 0.93) 100%
+      ),
+      url("/assets/benefits-section.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .testimonial-cards {
+    flex-wrap: wrap;
+  }
+
+  .partners img {
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .success-title {
+    h2 {
+      font-size: 2.4rem;
+    }
+    .quote-left,
+    .quote-right {
+      width: 35px;
+    }
+  }
+
+  .success-text {
+    font-size: 1.6rem;
+    line-height: 30px;
+  }
+
+  .success-section .container {
+    gap: 2.6rem;
+  }
+
+  footer {
+    .container {
+      gap: 30px;
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .hero-section {
+    .hero-img {
+      position: relative;
+    }
+  }
+}

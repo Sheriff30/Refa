@@ -1,0 +1,253 @@
+/* Animations.css - Smooth on-scroll animations for Refa website */
+
+/* Animation keyframes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes rotateIn {
+  from {
+    transform: rotate(-15deg) scale(0.9);
+    opacity: 0;
+  }
+  to {
+    transform: rotate(0) scale(1);
+    opacity: 1;
+  }
+}
+
+/* Utility classes for animation timing */
+.animation-delay-100 {
+  animation-delay: 100ms;
+}
+
+.animation-delay-200 {
+  animation-delay: 200ms;
+}
+
+.animation-delay-300 {
+  animation-delay: 300ms;
+}
+
+.animation-delay-400 {
+  animation-delay: 400ms;
+}
+
+.animation-delay-500 {
+  animation-delay: 500ms;
+}
+
+/* Hidden state for elements before animation triggers */
+.animate {
+  opacity: 0;
+}
+
+/* Animation classes that will be applied on scroll */
+.animate.fade-in {
+  animation: fadeIn 1s ease forwards;
+}
+
+.animate.slide-in-right {
+  animation: slideInRight 0.8s ease-out forwards;
+}
+
+.animate.slide-in-left {
+  animation: slideInLeft 0.8s ease-out forwards;
+}
+
+.animate.slide-in-up {
+  animation: slideInUp 0.8s ease-out forwards;
+}
+
+.animate.scale-in {
+  animation: scaleIn 0.8s ease-out forwards;
+}
+
+.animate.rotate-in {
+  animation: rotateIn 0.8s ease-out forwards;
+}
+
+/* Specific section animations */
+
+/* Hero section animations */
+.hero-text h1 div {
+  transform: translateY(30px);
+  opacity: 0;
+  animation: slideInUp 0.7s ease-out forwards;
+}
+
+.hero-text h1 div:nth-child(1) {
+  animation-delay: 200ms;
+}
+
+.hero-text h1 div:nth-child(2) {
+  animation-delay: 400ms;
+}
+
+.hero-text h1 div:nth-child(3) {
+  animation-delay: 600ms;
+}
+
+.hero-text p {
+  transform: translateY(30px);
+  opacity: 0;
+  animation: slideInUp 0.7s ease-out forwards;
+  animation-delay: 800ms;
+}
+
+.hero-btns {
+  transform: translateY(30px);
+  opacity: 0;
+  animation: slideInUp 0.7s ease-out forwards;
+  animation-delay: 1000ms;
+}
+
+.hero-img {
+  opacity: 0;
+  animation: fadeIn 1s ease-out forwards;
+  animation-delay: 300ms;
+}
+
+/* Rent without limits animations */
+.rent-without-limits-box {
+  transform: scale(0.95);
+  opacity: 0;
+}
+
+.rent-without-limits-box.in-view {
+  animation: scaleIn 0.8s ease-out forwards;
+}
+
+.rent-without-limits-box .circle-1,
+.rent-without-limits-box .circle-2 {
+  opacity: 0;
+}
+
+.rent-without-limits-box.in-view .circle-1 {
+  animation: rotateIn 1s ease-out forwards;
+  animation-delay: 400ms;
+}
+
+.rent-without-limits-box.in-view .circle-2 {
+  animation: rotateIn 1s ease-out forwards;
+  animation-delay: 600ms;
+}
+
+/* How it works animations */
+.how-it-works-card {
+  transform: translateY(40px);
+  opacity: 0;
+}
+
+.how-it-works-card.in-view {
+  animation: slideInUp 0.7s ease-out forwards;
+}
+
+/* Benefit cards animations */
+.benefit-card {
+  transform: translateY(40px);
+  opacity: 0;
+}
+
+.benefit-card.in-view {
+  animation: slideInUp 0.7s ease-out forwards;
+}
+
+/* Testimonial cards animations */
+.testimonial-card {
+  transform: translateY(40px);
+  opacity: 0;
+}
+
+.testimonial-card.in-view {
+  animation: slideInUp 0.7s ease-out forwards;
+}
+
+/* Contact section animations */
+.contact-img {
+  transform: translateX(-50px);
+  opacity: 0;
+}
+
+.contact-img.in-view {
+  animation: slideInLeft 0.8s ease-out forwards;
+}
+
+.contact-text {
+  transform: translateX(50px);
+  opacity: 0;
+}
+
+.contact-text.in-view {
+  animation: slideInRight 0.8s ease-out forwards;
+}
+
+/* Partners animations */
+.partners-section h2,
+.partners-section .gradient-btn {
+  transform: translateY(30px);
+  opacity: 0;
+}
+
+.partners-section h2.in-view,
+.partners-section .gradient-btn.in-view {
+  animation: slideInUp 0.7s ease-out forwards;
+}
+
+.partners img {
+  transform: scale(0.8);
+  opacity: 0;
+}
+
+.partners img.in-view {
+  animation: scaleIn 0.7s ease-out forwards;
+}
