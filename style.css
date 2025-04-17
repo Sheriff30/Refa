@@ -519,6 +519,7 @@ header {
 /* Contact section */
 
 .contact-section {
+  overflow-x: hidden;
   background: rgba(247, 247, 247, 0.74);
   padding: 0 2.5rem;
   .container {
