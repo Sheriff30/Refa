@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npx http-server . -p 3000 -o",
     "dev": "npx live-server --port=3000 --open=/index.html",
-    "build": "echo 'Static site - no build process needed'",
+    "build": "mkdir -p public && cp -r * public/ 2>/dev/null || true && rm -rf public/public",
     "serve": "npx http-server . -p 8080"
   },
   "keywords": [
