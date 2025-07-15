@@ -1,0 +1,33 @@
+{
+  "name": "refa",
+  "version": "1.0.0",
+  "description": "Refa - Real Estate Platform",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 3000 -o",
+    "dev": "npx live-server --port=3000 --open=/index.html",
+    "build": "echo 'Static site - no build process needed'",
+    "serve": "npx http-server . -p 8080"
+  },
+  "keywords": [
+    "real-estate",
+    "rental",
+    "property",
+    "frontend",
+    "web-app"
+  ],
+  "author": "Sherif Fouad",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sheriff30/Refa.git"
+  },
+  "homepage": "https://github.com/Sheriff30/Refa#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
