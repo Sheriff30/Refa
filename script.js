@@ -60,6 +60,23 @@ function setLanguage(lang) {
   <div> <img src="/assets/images/logos/english-logo.png" /> </div>
   `;
   });
+
+  showTermsContent(lang);
+}
+
+// Show/hide terms content based on language
+function showTermsContent(lang) {
+  const arDiv = document.getElementById("terms-ar");
+  const enDiv = document.getElementById("terms-en");
+  if (arDiv && enDiv) {
+    if (lang === "ar") {
+      arDiv.style.display = "block";
+      enDiv.style.display = "none";
+    } else {
+      arDiv.style.display = "none";
+      enDiv.style.display = "block";
+    }
+  }
 }
 
 // Menubar toggle
