@@ -22,9 +22,32 @@ function setLanguage(lang) {
   document.documentElement.lang = lang;
   document.body.style.direction = lang === "ar" ? "rtl" : "ltr";
 
+  // Helper to get nested value from object using dot notation
+  function getNestedValue(obj, path) {
+    return path.split(".").reduce((acc, part) => {
+      if (acc && acc.hasOwnProperty(part)) {
+        return acc[part];
+      }
+      return undefined;
+    }, obj);
+  }
+
   document.querySelectorAll("[data-i18n]").forEach((el) => {
     const key = el.getAttribute("data-i18n");
-    el.textContent = translations[lang][key];
+    let value = getNestedValue(translations[lang], key);
+
+    // If value is an array, render as list items (for <ul> or <ol> parents)
+    if (Array.isArray(value)) {
+      if (el.tagName === "UL" || el.tagName === "OL") {
+        el.innerHTML = value.map((item) => `<li>${item}</li>`).join("");
+      } else {
+        el.textContent = value.join(", ");
+      }
+    } else if (typeof value === "string") {
+      el.textContent = value;
+    } else if (typeof value === "undefined") {
+      el.textContent = "";
+    }
   });
 
   toggleLangBtn.forEach((e) => {

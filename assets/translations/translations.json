@@ -77,7 +77,87 @@
     "address2": "District, P.O. Box 12345, Riyadh ",
     "address3": "11564, Kingdom of Saudi Arabia",
     "follow-us": "Follow Us On",
-    "copy-right": "All rights reserved © 2024"
+    "copy-right": "All rights reserved © 2024",
+    "privacyPolicy": {
+      "effectiveDate": "06/10/2024",
+      "title": "Privacy Policy",
+      "intro": "REFA Advanced for Information Technology CJSC (REFA) (“we,” “our,” or “us”) is committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, and disclose information when you use our services. By using REFA’s platform or services, you agree to the terms outlined in this policy.",
+      "sections": [
+        {
+          "id": 1,
+          "title": "Information We Collect",
+          "content": [
+            "Personal Information: Includes your name, email address, phone number, date of birth, home address, and other identifying information provided when you sign up for REFA’s services.",
+            "Financial Information: Includes details about your bank account, rent payment history, and other relevant financial information necessary for providing rent now, pay later services.",
+            "Usage Information: We collect data on how you interact with our platform, including log data, IP address, browser type, device identifiers, and browsing actions within our services.",
+            "Third-Party Information: We may receive information about you from third parties, such as credit agencies or property management services, to verify your identity and assess your eligibility for our services."
+          ]
+        },
+        {
+          "id": 2,
+          "title": "How We Use Your Information",
+          "content": [
+            "Provide and manage REFA’s rent now, pay later services.",
+            "Verify your identity and financial eligibility for using the service.",
+            "Communicate with you about your account, payments, and service updates.",
+            "Improve and optimize the REFA platform, ensuring a secure and personalized experience.",
+            "Comply with legal obligations and regulations, including anti-fraud and anti-money laundering measures."
+          ]
+        },
+        {
+          "id": 3,
+          "title": "How We Share Your Information",
+          "content": [
+            "We do not sell your personal information.",
+            "Service Providers: Third-party services that help us operate our business (payment processors, storage providers, credit reporting agencies).",
+            "Business Partners: Property managers, landlords, or their agents to facilitate rent payments.",
+            "Legal Authorities: As required by law or to comply with legal processes.",
+            "Business Transfers: In case of a merger, acquisition, or asset sale, your information may be transferred."
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Data Security",
+          "content": "We employ industry-standard security measures including encryption, firewalls, and secure storage practices to protect your data from unauthorized access or misuse."
+        },
+        {
+          "id": 5,
+          "title": "Your Rights",
+          "content": [
+            "Access your personal information.",
+            "Request correction of inaccurate information.",
+            "Request deletion of personal information where legally permissible.",
+            "Object to processing for specific purposes."
+          ],
+          "contact": "info@getrefa.com"
+        },
+        {
+          "id": 6,
+          "title": "Data Retention",
+          "content": "We retain personal information as long as necessary to provide services, comply with legal obligations, resolve disputes, and enforce agreements."
+        },
+        {
+          "id": 7,
+          "title": "Cookies and Tracking Technologies",
+          "content": "We use cookies and tracking technologies to improve your experience. You may disable cookies through browser settings, but some features may not function properly."
+        },
+        {
+          "id": 8,
+          "title": "Children’s Privacy",
+          "content": "We do not knowingly collect personal information from individuals under 18. If collected unintentionally, we will delete it promptly."
+        },
+        {
+          "id": 9,
+          "title": "Changes to this Privacy Policy",
+          "content": "We may update this policy periodically. The effective date will be updated and notice provided on our platform. Continued use indicates acceptance of changes."
+        },
+        {
+          "id": 10,
+          "title": "Contact Us",
+          "content": ["REFA", "info@getrefa.com"]
+        }
+      ]
+    }
   },
   "ar": {
     "home-page": "الصفحة الرئيسية",
@@ -157,6 +237,86 @@
     "address4": "الرياض 11564",
     "address3": "المملكة العربية السعودية",
     "follow-us": "تابعنا على",
-    "copy-right": "جميع الحقوق محفوظة © 2024"
+    "copy-right": "جميع الحقوق محفوظة © 2024",
+    "privacyPolicy": {
+      "intro": "تلتزم شركة ريفا المتقدمة لتقنية نظم المعلومات ش.م.م (ريفا) بحماية خصوصيتك وضمان أمان معلوماتك الشخصية. توضح سياسة الخصوصية هذه كيفية جمعنا واستخدامنا والإفصاح عن المعلومات عند استخدامك لخدماتنا. باستخدامك لمنصة وخدمات ريفا، فإنك توافق على الشروط الموضحة في هذه السياسة.",
+      "effectiveDate": "06/10/2024",
+      "title": "سياسة الخصوصية",
+      "sections": [
+        {
+          "id": 1,
+          "title": "المعلومات التي نجمعها",
+          "content": [
+            "المعلومات الشخصية: تتضمن الاسم والبريد الإلكتروني ورقم الهاتف وتاريخ الميلاد وعنوان السكن ومعلومات تعريفية أخرى.",
+            "المعلومات المالية: مثل تفاصيل الحساب البنكي وسجل دفع الإيجار والمعلومات المالية ذات الصلة لتقديم خدمة الدفع الشهري للإيجار.",
+            "معلومات الاستخدام: بيانات حول كيفية تفاعلك مع المنصة مثل عنوان IP ونوع المتصفح ومعرفات الجهاز وسلوك التصفح.",
+            "معلومات من جهات خارجية: قد نتلقى معلومات من وكالات الائتمان أو مديري العقارات للتحقق من الهوية والأهلية."
+          ]
+        },
+        {
+          "id": 2,
+          "title": "كيفية استخدام معلوماتك",
+          "content": [
+            "تقديم وإدارة خدمات الدفع الشهري للإيجار.",
+            "التحقق من الهوية والأهلية المالية.",
+            "التواصل بخصوص الحساب والمدفوعات والتحديثات.",
+            "تحسين المنصة لضمان تجربة آمنة ومخصصة.",
+            "الامتثال للمتطلبات القانونية مثل مكافحة الاحتيال وغسيل الأموال."
+          ]
+        },
+        {
+          "id": 3,
+          "title": "كيفية مشاركة معلوماتك",
+          "content": [
+            "لا نقوم ببيع معلوماتك الشخصية.",
+            "مزودي الخدمات: مثل معالجي الدفع ومقدمي التخزين ووكالات الائتمان.",
+            "شركاء الأعمال: مثل مديري العقارات والملاك لتسهيل دفع الإيجار.",
+            "الهيئات القانونية: عند الطلب بموجب القانون.",
+            "حالات نقل الملكية التجارية: مثل الاندماج أو الاستحواذ أو بيع الأصول."
+          ]
+        },
+        {
+          "id": 4,
+          "title": "أمن البيانات",
+          "content": "نطبق إجراءات أمان معيارية تشمل التشفير والجدران النارية وتخزين البيانات بشكل آمن لمنع الوصول أو الاستخدام غير المصرح به."
+        },
+        {
+          "id": 5,
+          "title": "حقوقك",
+          "content": [
+            "الاطلاع على المعلومات الشخصية المخزنة.",
+            "طلب تصحيح البيانات غير الدقيقة.",
+            "طلب حذف البيانات وفقاً للمتطلبات القانونية.",
+            "الاعتراض على معالجة البيانات لأغراض معينة."
+          ],
+          "contact": "info@getrefa.com"
+        },
+        {
+          "id": 6,
+          "title": "الاحتفاظ بالبيانات",
+          "content": "نحتفظ بالبيانات للمدة اللازمة لتقديم الخدمات والامتثال للقوانين."
+        },
+        {
+          "id": 7,
+          "title": "ملفات تعريف الارتباط",
+          "content": "استخدام ملفات تعريف الارتباط لتحسين التجربة، ويمكن تعطيلها من إعدادات المتصفح ولكن قد يتم فقد بعض الميزات."
+        },
+        {
+          "id": 8,
+          "title": "خصوصية الأطفال",
+          "content": "لا نستهدف الأطفال دون 18 سنة ولا نجمع بياناتهم عمداً، وإذا حدث ذلك سيتم حذفها فوراً."
+        },
+        {
+          "id": 9,
+          "title": "التغييرات على سياسة الخصوصية",
+          "content": "قد يتم تحديث السياسة بشكل دوري، وسيتم الإعلان عن ذلك وتغيير تاريخ السريان. استمرار الاستخدام يعد موافقة."
+        },
+        {
+          "id": 10,
+          "title": "اتصل بنا",
+          "content": ["ريفا", "info@getrefa.com"]
+        }
+      ]
+    }
   }
 }

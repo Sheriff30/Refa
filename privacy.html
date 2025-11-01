@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Refa</title>
+    <link rel="icon" href="/assets/logo.svg" type="image/svg+xml" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link rel="stylesheet" href="animations.css" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="script.js"></script>
+    <style>
+      /* Privacy Policy Styles */
+      .privacy-policy {
+        max-width: 900px;
+        margin: 40px auto 60px auto;
+        background: #fff;
+        border-radius: 16px;
+        box-shadow: 0 4px 24px rgba(0, 0, 0, 0.07);
+        padding: 32px 24px;
+        font-family: inherit;
+      }
+      .privacy-policy h1 {
+        font-size: 22px;
+        font-weight: 700;
+        margin-bottom: 16px;
+        color: #1a345e;
+        text-align: center;
+      }
+      .privacy-policy section > p strong {
+        color: #1a345e;
+        font-size: 18px;
+      }
+      .privacy-policy section > p {
+        font-size: 18px;
+        margin-bottom: 22px;
+        text-align: center;
+      }
+      .privacy-policy .privacy-section {
+        margin-bottom: 36px;
+        padding-bottom: 18px;
+        border-bottom: 1px solid #eaeaea;
+      }
+      .privacy-policy .privacy-section:last-child {
+        border-bottom: none;
+      }
+      .privacy-policy h2 {
+        font-size: 20px;
+        font-weight: 600;
+        color: #1a345e;
+        margin-bottom: 12px;
+      }
+      .privacy-policy ul {
+        padding-left: 28px;
+        margin-bottom: 12px;
+      }
+      .privacy-policy ul li {
+        font-size: 18px;
+        margin-bottom: 8px;
+        color: #333;
+        line-height: 1.8;
+      }
+      .privacy-policy p {
+        font-size: 18px;
+        color: #444;
+        line-height: 1.8;
+      }
+      .privacy-policy section > p strong[data-i18n] {
+        display: inline-block;
+        margin-bottom: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Mobile  Nav-->
+    <section class="mobile-nav closed">
+      <div class="close-btn">
+        <img src="/assets/close-outline.svg" alt="" />
+      </div>
+      <nav>
+        <a href="#" data-i18n="home-page"></a>
+        <a href="#" data-i18n="partners"> </a>
+        <a href="#" data-i18n="become-a-partner"></a>
+
+        <a href="#">
+          <div data-i18n="download-app"></div>
+        </a>
+        <button class="toggleLangBtn">Arabic</button>
+
+        <a href="#">
+          <div data-i18n="login"></div>
+        </a>
+      </nav>
+    </section>
+
+    <!-- Header -->
+    <!-- Privacy Policy Section -->
+
+    <header>
+      <div class="container">
+        <!-- Logo -->
+        <div class="logo">
+          <img src="/assets/images/logos/refa-logo.svg" alt="" />
+        </div>
+
+        <!-- Nav -->
+        <nav>
+          <a href="#" data-i18n="home-page"></a>
+          <a href="#" data-i18n="partners"> </a>
+          <a href="#" data-i18n="become-a-partner"></a>
+          <button class="toggleLangBtn">Arabic</button>
+        </nav>
+
+        <!-- actions -->
+        <div class="header-actions">
+          <a href="#">
+            <div>
+              <img src="/assets/images/logos/user-logo.png" alt="" />
+            </div>
+            <div data-i18n="login"></div>
+          </a>
+          <a href="#">
+            <div data-i18n="download-app"></div>
+            <div>
+              <img src="/assets/images/logos/download-logo.png" alt="" />
+            </div>
+          </a>
+        </div>
+
+        <div class="menu-bar">
+          <img src="/assets/menu-outline.svg" alt="" />
+        </div>
+      </div>
+    </header>
+
+    <main class="privacy-policy">
+      <section>
+        <h1 data-i18n="privacyPolicy.title"></h1>
+        <p>
+          <strong data-i18n="privacyPolicy.effectiveDate"></strong>
+        </p>
+        <p data-i18n="privacyPolicy.intro"></p>
+        <div id="privacy-sections">
+          <div class="privacy-section">
+            <h2 data-i18n="privacyPolicy.sections.0.title"></h2>
+            <ul>
+              <li data-i18n="privacyPolicy.sections.0.content.0"></li>
+              <li data-i18n="privacyPolicy.sections.0.content.1"></li>
+              <li data-i18n="privacyPolicy.sections.0.content.2"></li>
+              <li data-i18n="privacyPolicy.sections.0.content.3"></li>
+            </ul>
+          </div>
+          <div class="privacy-section">
+            <h2 data-i18n="privacyPolicy.sections.1.title"></h2>
+            <ul>
+              <li data-i18n="privacyPolicy.sections.1.content.0"></li>
+              <li data-i18n="privacyPolicy.sections.1.content.1"></li>
+              <li data-i18n="privacyPolicy.sections.1.content.2"></li>
+              <li data-i18n="privacyPolicy.sections.1.content.3"></li>
+              <li data-i18n="privacyPolicy.sections.1.content.4"></li>
+            </ul>
+          </div>
+          <div class="privacy-section">
+            <h2 data-i18n="privacyPolicy.sections.2.title"></h2>
+            <ul>
+              <li data-i18n="privacyPolicy.sections.2.content.0"></li>
+              <li data-i18n="privacyPolicy.sections.2.content.1"></li>
+              <li data-i18n="privacyPolicy.sections.2.content.2"></li>
+              <li data-i18n="privacyPolicy.sections.2.content.3"></li>
+              <li data-i18n="privacyPolicy.sections.2.content.4"></li>
+            </ul>
+          </div>
+          <div class="privacy-section">
+            <h2 data-i18n="privacyPolicy.sections.3.title"></h2>
+            <p data-i18n="privacyPolicy.sections.3.content"></p>
+          </div>
+          <div class="privacy-section">
+            <h2 data-i18n="privacyPolicy.sections.4.title"></h2>
+            <ul>
+              <li data-i18n="privacyPolicy.sections.4.content.0"></li>
+              <li data-i18n="privacyPolicy.sections.4.content.1"></li>
+              <li data-i18n="privacyPolicy.sections.4.content.2"></li>
+              <li data-i18n="privacyPolicy.sections.4.content.3"></li>
+            </ul>
+            <p>
+              <strong data-i18n="privacyPolicy.sections.4.contact"></strong>
+            </p>
+          </div>
+          <div class="privacy-section">
+            <h2 data-i18n="privacyPolicy.sections.5.title"></h2>
+            <p data-i18n="privacyPolicy.sections.5.content"></p>
+          </div>
+          <div class="privacy-section">
+            <h2 data-i18n="privacyPolicy.sections.6.title"></h2>
+            <p data-i18n="privacyPolicy.sections.6.content"></p>
+          </div>
+          <div class="privacy-section">
+            <h2 data-i18n="privacyPolicy.sections.7.title"></h2>
+            <p data-i18n="privacyPolicy.sections.7.content"></p>
+          </div>
+          <div class="privacy-section">
+            <h2 data-i18n="privacyPolicy.sections.8.title"></h2>
+            <p data-i18n="privacyPolicy.sections.8.content"></p>
+          </div>
+          <div class="privacy-section">
+            <h2 data-i18n="privacyPolicy.sections.9.title"></h2>
+            <ul>
+              <li data-i18n="privacyPolicy.sections.9.content.0"></li>
+              <li data-i18n="privacyPolicy.sections.9.content.1"></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-section logo-footer">
+          <img src="/assets/logo-footer.svg" alt="" />
+        </div>
+
+        <div class="footer-section">
+          <h3 data-i18n="useful-links"></h3>
+          <ul>
+            <li>
+              <a href="#" data-i18n="about-platform"></a>
+            </li>
+            <li><a href="#" data-i18n="faq"></a></li>
+            <li><a href="#" data-i18n="pp"></a></li>
+            <li><a href="#" data-i18n="terms"></a></li>
+            <li><a href="#" data-i18n="blog"></a></li>
+            <li><a href="#" data-i18n="site-map"></a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3 data-i18n="contact-us"></h3>
+          <p>
+            <strong data-i18n="mail"> </strong>
+            support@perrefs.com
+          </p>
+          <p class="phone-number">
+            <strong data-i18n="phone"> </strong>
+            +966 55 123 4567
+          </p>
+        </div>
+
+        <div class="footer-section">
+          <h3 data-i18n="address"></h3>
+          <p data-i18n="address1"></p>
+          <p data-i18n="address2"></p>
+          <p data-i18n="address4"></p>
+          <p data-i18n="address3"></p>
+        </div>
+
+        <div class="footer-section">
+          <h3 data-i18n="follow-us"></h3>
+          <div class="social-icons">
+            <a href="#">
+              <img src="/assets/linkedin-icon.svg" alt="" />
+            </a>
+            <a href="#">
+              <img src="/assets/instagram-icon.svg" alt="" />
+            </a>
+            <a href="#">
+              <img src="/assets/x-icon.svg" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Copy right -->
+    <section class="copy-right" data-i18n="copy-right">
+      All rights reserved © 2024
+    </section>
+  </body>
+</html>
